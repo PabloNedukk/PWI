@@ -1,0 +1,63 @@
+/*Comentarios en CSS*/
+/*Selectores*/
+
+/* selector por etiquetas */
+/*A todos los elementos <p> les asigna las propiedades definidas */
+body{
+background-color:lavender
+}
+
+h1{
+    color:purple;
+    background-color: rgb(255, 240, 245, 0.4);
+}
+
+#Primera{
+    color: #99100F  
+}
+
+/* selectores de clase */
+/* .NombreDeLaClase */
+.TextoRojo{
+    color: red;
+}
+
+.Letras{
+    color: blue
+}
+
+
+
+button{
+    color:aqua;
+    background-color: gray;
+    
+}
+
+.IrGoogle{
+    color: darkmagenta;
+    background-color: grey;
+}
+
+/* Selectores por Id*/
+
+#UnTexto{
+    color: saddlebrown;
+}
+/* Color: propiedad de color tipografico */
+/* definir colores:
+    ROJO-VERDE-AZUl 
+    Hexadecimal (# A-F 0-9)
+    RGB(red,green,blue)(0 al 255)
+    RGBA(A:Transparencia. Del (+)0 al 1(-) %)*/
+/* le va a colocar a los elementos todas las propiedades que se les asignen */
+
+img{
+    width:21% ;/* Ancho de un elemento*/
+}
+/* UNIDADES 
+    Porcentaje(%) Toma como 100% la medida del padre para saber cuanto va a valer el hijo */
+
+    /* 25h view height ->    25% del alto de la pantalla 
+        50vw view widht -> 50% del ancho de la pantalla*/
+        
