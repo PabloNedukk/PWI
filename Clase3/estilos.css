@@ -3,10 +3,10 @@
 
 /* selector por etiqueta*/
 /* a todos los elementos <p> les asigna las propiedades definidas */
-body{
+/*body{
     background-image: url(../Clase2/imagenes/mesa.jpg);
     background-attachment: fixed;
-}
+}*/
 p{
     color: green;
     background-color: #3498db;
