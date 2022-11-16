@@ -1,0 +1,18 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Este sector aplica las propiedades a todo elemento del HTML */
+body{
+    background-color: bisque;
+
+}
+/* unidades: 
+1rem , 1em ->16px
+px - % - vh - vw*/
+/* NO hacer tipografia menores a los 14px*/
+
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
