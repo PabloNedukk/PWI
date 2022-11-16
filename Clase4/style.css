@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Raleway:ital,wght@0,600;1,100;1,400,600,900&display=swap');
+
 *{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -6,6 +8,7 @@ body{
     background-color: bisque;
 
 }
+/* aplica a los elementos del body pero no a */
 /* unidades: 
 1rem , 1em ->16px
 px - % - vh - vw*/
@@ -14,5 +17,60 @@ px - % - vh - vw*/
 
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5em; /*16*3:48px*/
+    font-weight: 100;/* grosor de la letra */
+    text-decoration:overline;/* agregar subreayado , etc */
+
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;/* Dependemos de la tipografia externa */
+}
+
+button{
+    font-family: 'Kurale', serif;
+    padding: 20px;
+    box-shadow:inset 5px 6px 2px rebeccapurple;
+    text-shadow: 5px 5px gainsboro;
+     /*sombras
+     (Externas al elemento)
+     +: Hacia la derecha , hacia abajo
+     - :Hacia la izquierda , hacia arriba
+     (Internas al elemento)
+     +: Hacia la derecha , hacia abajo
+     - :Hacia la izquierda , hacia arriba*/
+
+}
+
+.subtitulo{
+    font-size: 2em;
+    font-size:600;
+    text-transform:uppercase;/* lowercase - capitalize */
+    text-align:center;
+    width: 50%;
+    background-color: brown;
+}
+
+p{
+    text-align: justify;
+}
+a{
+    text-decoration:none;/* Sacar el subrayado */
+
+}
+
+ul{
+    list-style-type:circle;/* */
+    /*list-style-image:url(../Clase3/24cd454636aae9475ed9b474b835e814.jpg);*/
+}
+
+ol{
+    list-style:upper-roman
+}
+
+#google{
+    ;
 }
