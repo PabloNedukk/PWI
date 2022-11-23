@@ -1,0 +1,14 @@
+body{
+    
+
+}
+
+.Cubo{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border: 2px solid black;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
