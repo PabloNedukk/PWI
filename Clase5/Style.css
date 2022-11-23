@@ -1,10 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 
-.Cubo{
+.container{
+    background-color: lightblue;
+    /* position: relative; */
+    height: 300px;
+}
+
+.cubo{
     width: 150px;
     height: 150px;
-    background-color: gray;
+    background-color: brown;
     border: 2px solid black;
     margin: 10px;
     font-size: larger;
     font-weight: bolder;
+}
+
+.uno{
+    background-color: #f90;
+    position: relative;
+    top: 100px;
+    left: 190px;
+}
+/* top- left- right - bottom */
+
+.dos{
+    background-color: violet;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+/* absolute: busca el padre con position relative mas cercano y lo toma como referencia para ubicarse .
+Si no hay ninguno, toma al <body>*/
+/* Relative */
+.fondo{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+/* Absolute */
+.textoInterno{
+    position: absolute;
+    top: 50px;
+    left: 45px;
+}
+/* Fixed */
+/* toma de referencia al body */
+.tres{
+    background-color: darksalmon;
+    position: fixed;
+    bottom: 10px; ;
+    right: 10px;;
+    z-index: index 1; /*Indica que tan encima ava a estar de los demas elementos*/;
+}
+/* Sticky */
+
+.cuatro{
+    position: sticky;
+    top: 10px;
+    z-index: 2;
 }
